@@ -1,0 +1,1 @@
+export type GetArraySum = (array: any[], shouldIgnoreNotNumber?: boolean) => number
