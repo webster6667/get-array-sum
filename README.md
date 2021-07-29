@@ -66,7 +66,7 @@ import getArraySum from 'get-array-sum';
 
 const sum = getArraySum([1,2,3])
 
-console.log(sum)
+console.log(sum) //6
 ```
 
 #### Node
@@ -78,7 +78,7 @@ const getArraySum = require('get-array-sum');
 
 const sum = getArraySum([1,2,3])
 
-console.log(sum)
+console.log(sum) //6
 ```
 
 #### Browser
@@ -91,7 +91,7 @@ Connect to html file ```<script src="https://cdn.jsdelivr.net/npm/get-array-sum/
 <script>
     var sum = getArraySum([1,2,3]);
 
-    console.log(sum);
+    console.log(sum); //6
 </script>
 ```
 
@@ -106,7 +106,7 @@ get-array-sum as an AMD module. Use with Require.js, System.js, and so on.
 requirejs(['get-array-sum'], function(getArraySum) {
     var sum = getArraySum([1,2,3]);
 
-    console.log(sum);
+    console.log(sum); //6
 });
 ```
 

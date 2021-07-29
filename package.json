@@ -1,6 +1,6 @@
 {
   "name": "get-array-sum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get sum of array numbers",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
